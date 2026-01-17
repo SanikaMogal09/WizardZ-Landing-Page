@@ -1,0 +1,111 @@
+
+@import url("https://fonts.googleapis.com/css?family=Lilex:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    /* background-color: bisque; */
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 45px;
+}
+
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:70px;
+}
+
+nav h1{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+nav h1 i{
+    color: #BCD85F;
+}
+nav h4{
+    font-size:20px;
+    font-weight: 500;
+}
+
+nav button{
+    padding: 18px 30px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 10px;
+    border:1px solid #111;
+    background-color: transparent;
+}
+
+.center{
+    /* background-color: red; */
+    height: 82%;
+    width:100%;
+    display: flex;
+    padding: 40px 45px;
+}
+
+.center-part1{
+    /* background-color: #add8e62d; */
+    height:100% ;
+    width:44% ;
+}
+
+.center-part1 h1{
+    line-height: 1.2;
+    font-size: 55px;
+    font-family: lilex;
+    font-weight: 500;
+    /* background-color: red; */
+}
+.center-part1 p{
+    font-size: 20px;
+    font-weight: 400;
+    width: 95%;
+    letter-spacing: 2.5px;
+    margin-top: 45px;
+    margin-bottom: 27px;
+}
+.center-part1 button{
+    background-color: #111;
+    color: aliceblue;
+    padding: 22px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    font-weight: 600;
+}
+
+.center-part2{
+    /* background-color: #0a82aa36; */
+    height:100% ;
+    width:56% ;
+    position: relative;
+}
+
+.center-part2 img{
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    right: 0;
+}
